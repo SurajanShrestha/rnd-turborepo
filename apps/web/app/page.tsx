@@ -1,8 +1,6 @@
 import Image from "next/image";
-import { Card } from "@repo/ui/card";
-import { Code } from "@repo/ui/code";
 import styles from "./page.module.css";
-import { Button } from "@repo/ui/button";
+import { Card, Code, Button, Test } from "@repo/ui/components";
 
 function Gradient({
   conic,
@@ -81,6 +79,8 @@ export default function Page(): JSX.Element {
       <Button appName="web" className={styles.button}>
         Click me!
       </Button>
+
+      <Test />
 
       <div className={styles.hero}>
         <div className={styles.heroContent}>
