@@ -1,3 +1,3 @@
 export const Test = () => {
-  return <div>test</div>;
+  return <div>A Shareable Test Component</div>;
 };
